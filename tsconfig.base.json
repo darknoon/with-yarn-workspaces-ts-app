@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "target": "esnext",
+    "lib": ["es2018"],
+    "listEmittedFiles": true,
+    "build": true
+  }
+}

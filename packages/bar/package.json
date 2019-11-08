@@ -1,0 +1,11 @@
+{
+  "name": "bar",
+  "version": "1.0.0",
+  "types": "index.tsx",
+  "peerDependencies": {
+    "react": "^16.8.3"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.11"
+  }
+}
