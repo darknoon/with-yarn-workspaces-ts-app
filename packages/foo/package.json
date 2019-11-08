@@ -2,5 +2,5 @@
   "private": true,
   "name": "foo",
   "version": "1.0.0",
-  "main": "./src/index.ts"
+  "types": "index.ts"
 }
