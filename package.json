@@ -3,12 +3,20 @@
   "workspaces": [
     "packages/*"
   ],
+  "version": "1.0.0",
   "scripts": {
-    "dev": "yarn --cwd packages/web-app dev",
-    "build": "yarn --cwd packages/web-app build",
-    "start": "yarn --cwd packages/web-app start"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "next-transpile-modules": "^2.0.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
   },
   "devDependencies": {
+    "@now/node": "^1.0.2",
     "typescript": "^3.7.2"
   }
 }
