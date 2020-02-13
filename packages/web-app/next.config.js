@@ -1,7 +1,5 @@
-const withTM = require('next-transpile-modules')
-
-// Tell webpack to compile the "bar" package
+// Tell webpack to compile the "foo" and "bar" packages (since they are TS)
 // https://www.npmjs.com/package/next-transpile-modules
-module.exports = withTM({
-  transpileModules: ['bar', 'foo']
-})
+
+const withTM = require('next-transpile-modules')(['bar', 'foo'])
+module.exports = withTM()
